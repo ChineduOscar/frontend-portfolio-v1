@@ -14,7 +14,7 @@ const Contact = () => {
           className='mb-10'
         >
           <h2 className='text-4xl font-bold mb-4'>
-            Let's <span className='text-blue-400'>Connect</span>
+            Let&apos;s <span className='text-blue-400'>Connect</span>
           </h2>
           <div className='w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-6'></div>
         </motion.div>
