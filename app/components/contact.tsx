@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -36,8 +35,8 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className='relative inline-block'
         >
-          <Link href='mailto:contact@example.com'>
-            <button className='relative'>
+          <a href='mailto:chinedunnadozieo@gmail.com' target='_blank'>
+            <button className='relative cursor-pointer'>
               <div className='absolute -inset-[2px] rounded-lg overflow-hidden'>
                 <div className='absolute inset-0 rounded-lg animate-border-flow'></div>
               </div>
@@ -59,7 +58,7 @@ const Contact = () => {
                 </svg>
               </span>
             </button>
-          </Link>
+          </a>
         </motion.div>
       </div>
     </section>
