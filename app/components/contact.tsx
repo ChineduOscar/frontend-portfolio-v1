@@ -25,7 +25,7 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className='text-gray-300 max-w-2xl mx-auto text-lg mb-10'
         >
-          I'm always open to discussing new projects, creative ideas or
+          I&apos;m always open to discussing new projects, creative ideas or
           opportunities to be part of your vision. Feel free to reach out if you
           want to connect!
         </motion.p>

@@ -54,7 +54,7 @@ const About = () => {
               variants={fadeInUp}
               className='text-gray-300 text-xl leading-relaxed'
             >
-              I'm a passionate frontend developer specializing in building
+              I&apos;m a passionate frontend developer specializing in building
               user-friendly and visually engaging web applications. With
               expertise in modern frameworks like React and Next.js, I focus on
               delivering seamless and high-performance user experiences.
@@ -66,8 +66,8 @@ const About = () => {
             >
               My approach combines technical expertise with creative
               problem-solving to transform ideas into functional, beautiful
-              websites. I'm committed to writing clean, maintainable code and
-              staying current with the latest web technologies and best
+              websites. I&apos;m committed to writing clean, maintainable code
+              and staying current with the latest web technologies and best
               practices.
             </motion.p>
 
@@ -78,7 +78,7 @@ const About = () => {
                 rel='noopener noreferrer'
                 className='inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105'
               >
-                Download Resume
+                My Resume
               </a>
             </motion.div>
           </motion.div>

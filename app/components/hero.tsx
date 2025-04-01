@@ -34,7 +34,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className='text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight'
             >
-              I'm a{' '}
+              I&apos;m a{' '}
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400'>
                 Frontend Developer
               </span>
