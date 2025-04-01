@@ -9,20 +9,16 @@ const Hero = () => {
       id='home'
       className='relative py-20 flex items-center overflow-hidden text-white'
     >
-      {/* Background elements */}
       <div className='absolute inset-0 opacity-10'>
         <div className='absolute top-20 left-10 w-64 h-64 rounded-full bg-white blur-3xl'></div>
         <div className='absolute bottom-20 right-10 w-80 h-80 rounded-full bg-white blur-3xl'></div>
       </div>
 
-      {/* Grid pattern overlay */}
       <div className='absolute inset-0 bg-grid-pattern opacity-5'></div>
 
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10'>
         <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-8'>
-          {/* Text content - aligned to the left/side */}
           <div className='md:w-1/2 md:pr-8 md:text-left text-center'>
-            {/* Welcome text */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -32,7 +28,6 @@ const Hero = () => {
               Welcome to My Online Home!
             </motion.div>
 
-            {/* Main heading with name */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -45,7 +40,6 @@ const Hero = () => {
               </span>
             </motion.h1>
 
-            {/* Static text */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -55,7 +49,6 @@ const Hero = () => {
               Building the Web of Tomorrow, Today.
             </motion.div>
 
-            {/* Subtext */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -65,8 +58,6 @@ const Hero = () => {
               Crafting seamless, intuitive, and modern digital experiences that
               bridge creativity and innovation.
             </motion.p>
-
-            {/* Animated button with only border animation */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -75,12 +66,9 @@ const Hero = () => {
             >
               <a href='mailto:chinedunnadozieo@gmail.com' target='_blank'>
                 <button className='relative cursor-pointer'>
-                  {/* Animated border container */}
                   <div className='absolute -inset-[2px] rounded-lg overflow-hidden'>
                     <div className='absolute inset-0 rounded-lg animate-border-flow'></div>
                   </div>
-
-                  {/* Button content */}
                   <span className='relative block rounded-md bg-[#15182e] px-8 py-4 text-white text-lg font-medium z-10'>
                     Hire Me
                     <svg
@@ -103,7 +91,6 @@ const Hero = () => {
             </motion.div>
           </div>
 
-          {/* Tic-tac-toe grid with moving line */}
           <TicTacGrid />
         </div>
       </div>

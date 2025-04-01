@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaGithub,
   FaTwitter,
-  FaInstagram,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -16,7 +15,6 @@ const Footer = () => {
     <footer className='bg-[#0e1221] text-white py-10'>
       <div className='container mx-auto px-6'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mb-8'>
-          {/* Contact Info */}
           <div className='flex flex-col items-center md:items-start'>
             <h3 className='text-xl font-semibold mb-4'>Contact</h3>
             <div className='flex items-center mb-3'>
@@ -29,7 +27,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Logo/Brand */}
           <div className='flex flex-col items-center justify-center'>
             <h2 className='text-2xl font-bold mb-2'>Chinedu Oscar</h2>
             <p className='text-gray-400 text-sm text-center'>
@@ -38,7 +35,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Social Links */}
           <div className='flex flex-col items-center md:items-end'>
             <h3 className='text-xl font-semibold mb-4'>Connect</h3>
             <div className='flex space-x-4'>
@@ -72,11 +68,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Divider */}
         <div className='border-t border-gray-800 my-6'></div>
-
-        {/* Copyright */}
         <div className='text-center text-gray-400 text-sm'>
           <p>© {currentYear} Chinedu Oscar. All rights reserved.</p>
         </div>

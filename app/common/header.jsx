@@ -21,10 +21,8 @@ const Header = () => {
     <header className='w-full bg-[#15182e] text-gray-100 shadow-xl border-b border-[#1c2040]'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between items-center py-6'>
-          {/* Logo */}
           <Image src={logo} alt='Chinedu Oscar' width={50} height={50} />
 
-          {/* Desktop Navigation */}
           <nav className='hidden md:flex space-x-12'>
             <a
               href='#about'
@@ -49,7 +47,6 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Social Icons */}
           <div className='hidden md:flex items-center space-x-8'>
             <a
               href='https://linkedin.com/in/nnadozie-chinedu-62448a19b'
@@ -78,7 +75,6 @@ const Header = () => {
             </a>
           </div>
 
-          {/* Mobile menu button */}
           <div className='md:hidden'>
             <button
               onClick={toggleMenu}
@@ -95,7 +91,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
       {isMenuOpen && (
         <div className='md:hidden bg-[#1c2040] border-t border-[#252a4e]'>
           <div className='px-2 pt-2 pb-4 space-y-2 sm:px-3'>

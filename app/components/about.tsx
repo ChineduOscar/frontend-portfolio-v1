@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { skills, services } from '../data';
 
 const About = () => {
-  // Animation variants
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -23,7 +22,6 @@ const About = () => {
   return (
     <section id='about' className='py-24 text-white'>
       <div className='container max-w-7xl mx-auto px-6 lg:px-8'>
-        {/* Section Header */}
         <motion.div
           initial='hidden'
           whileInView='visible'
@@ -37,9 +35,7 @@ const About = () => {
           <div className='w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-6'></div>
         </motion.div>
 
-        {/* Two-column layout for bio and image */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center'>
-          {/* Bio content */}
           <motion.div
             initial='hidden'
             whileInView='visible'
@@ -75,7 +71,6 @@ const About = () => {
               practices.
             </motion.p>
 
-            {/* CTA Button */}
             <motion.div variants={fadeInUp} className='pt-4'>
               <a
                 href='/resume.pdf'
@@ -87,8 +82,6 @@ const About = () => {
               </a>
             </motion.div>
           </motion.div>
-
-          {/* Image or services section */}
           <motion.div
             initial='hidden'
             whileInView='visible'
@@ -116,7 +109,6 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* Skills section */}
         <motion.div
           initial='hidden'
           whileInView='visible'

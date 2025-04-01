@@ -38,12 +38,9 @@ const Contact = () => {
         >
           <Link href='mailto:contact@example.com'>
             <button className='relative'>
-              {/* Animated border container */}
               <div className='absolute -inset-[2px] rounded-lg overflow-hidden'>
                 <div className='absolute inset-0 rounded-lg animate-border-flow'></div>
               </div>
-
-              {/* Button content */}
               <span className='relative block rounded-md bg-[#15182e] px-8 py-4 text-white text-lg font-medium z-10'>
                 Connect
                 <svg

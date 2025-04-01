@@ -5,15 +5,10 @@ import Image from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { projects } from '@/app/data';
 
-// Define project type for type safety
-
 const Projects = () => {
-  // Sample projects data - replace with your actual projects
-
   return (
     <section id='projects' className='py-24 text-white'>
       <div className='container max-w-6xl mx-auto px-6 lg:px-8'>
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -30,8 +25,7 @@ const Projects = () => {
             expertise.
           </p>
         </motion.div>
-
-        {/* Projects Grid */}
+        \
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -45,7 +39,6 @@ const Projects = () => {
               transition={{ duration: 0.3 }}
               className='bg-[#1a1f40] rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full'
             >
-              {/* Project Image */}
               <div className='relative h-64 w-full overflow-hidden'>
                 <Image
                   src={project.image}
@@ -55,15 +48,11 @@ const Projects = () => {
                   sizes='(max-width: 768px) 100vw, 50vw'
                 />
               </div>
-
-              {/* Project Content */}
               <div className='p-6 flex flex-col flex-grow'>
                 <h3 className='text-2xl font-semibold mb-3'>{project.title}</h3>
                 <p className='text-gray-300 mb-6 flex-grow'>
                   {project.description}
                 </p>
-
-                {/* Technologies */}
                 <div className='mb-6'>
                   <h4 className='text-sm text-gray-400 mb-2'>
                     Technologies Used:
@@ -79,8 +68,6 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
-
-                {/* Buttons */}
                 <div className='flex space-x-4'>
                   <a
                     href={project.githubLink}
