@@ -52,7 +52,7 @@ const About = () => {
 
             <motion.p
               variants={fadeInUp}
-              className='text-gray-300 text-xl leading-relaxed'
+              className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
               I&apos;m a passionate frontend developer specializing in building
               user-friendly and visually engaging web applications. With
@@ -62,7 +62,7 @@ const About = () => {
 
             <motion.p
               variants={fadeInUp}
-              className='text-gray-300 text-xl leading-relaxed'
+              className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
               My approach combines technical expertise with creative
               problem-solving to transform ideas into functional, beautiful

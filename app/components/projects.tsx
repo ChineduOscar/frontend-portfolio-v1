@@ -7,7 +7,7 @@ import { projects } from '@/app/data';
 
 const Projects = () => {
   return (
-    <section id='projects' className='py-24 text-white'>
+    <section id='projects' className='py-8 md:py-18 text-white'>
       <div className='container max-w-6xl mx-auto px-6 lg:px-8'>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,6 @@ const Projects = () => {
             expertise.
           </p>
         </motion.div>
-        \
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
