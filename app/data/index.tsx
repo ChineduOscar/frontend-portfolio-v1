@@ -20,7 +20,7 @@ interface Project {
   title: string;
   description: string;
   image: string;
-  githubLink: string;
+  githubLink?: string;
   liveLink: string;
   technologies: string[];
 }
@@ -28,19 +28,17 @@ interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Cofounder Matching Platform',
+    title: 'SmartifyPDF',
     description:
-      'An intelligent platform that connects entrepreneurs with the perfect cofounder. Using AI-driven matchmaking, it pairs individuals based on skills, interests, and startup vision ensuring strong successful partnerships.',
-    image: '/cofounder-bg.png',
-    githubLink: 'https://github.com/Alimego/matchers',
-    liveLink: 'https://cofoundershub.netlify.app',
+      'SmartifyPDF uses AI to instantly convert your PDFs into interactive quizzes, making learning faster and more engaging.',
+    image: '/smartifypdf-bg.png',
+    liveLink: 'https://smartifypdf.com',
     technologies: [
       'Next.js',
       'NestJS',
-      'Prisma',
-      'PostgreSQL',
-      'OpenAI API',
-      'JWT Authentication',
+      'TypeScript',
+      'Tailwind CSS',
+      'Firebase',
     ],
   },
   {
